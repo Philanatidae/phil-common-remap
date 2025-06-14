@@ -73,7 +73,7 @@ int main(int argc, char* argv[]) {
             if(input.type == EV_KEY && input.code == KEY_LEFTALT) {
                 input.code = KEY_LEFTMETA;
             } else if(input.type == EV_KEY && input.code == KEY_LEFTMETA) {
-                input.code = KEY_LEFTMETA;
+                input.code = KEY_LEFTALT;
             }
         }
         write_event(&input);
