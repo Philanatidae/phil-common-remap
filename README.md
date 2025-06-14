@@ -12,7 +12,7 @@ A plugin for Interception Tools with my common remaps.
 ## Installing
 ```
 $ git clone https://github.com/philanatidae/phil-common-remap.git
-$ cd caps2esc
+$ cd phil-common-remap
 $ cmake -B build -DCMAKE_BUILD_TYPE=Release
 $ cmake --build build
 $ cmake --install
